@@ -5,14 +5,16 @@
 *.eps binary
 
 *.f90 diff=Fortran
-*.tex diff=tex
-*.aux diff=tex
-*.bbl diff=bibtex
-*.blg diff=bibtex
-*.out diff=tex
-*.bib diff=bibtex
+*.tex diff=Tex
+*.aux diff=Tex
+*.bbl diff=BibTex
+*.blg diff=BibTex
+*.out diff=Tex
+*.bib diff=BibTex
+*.sh diff=Shell
 
-*.tex linguist-language=tex
-*.ini linguist-language=tex
-*.lvt linguist-language=tex
+*.sh linguist-language=Shell
+*.tex linguist-language=Tex
+*.ini linguist-language=Tex
+*.lvt linguist-language=Tex
  
